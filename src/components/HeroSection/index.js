@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
-import { Button } from 'react-scroll'
 import Video from '../../videos/video.mp4'
+import {Button} from '../ButtonElements.js'
 import {
     HeroContainer,
     HeroBg,
