@@ -1,4 +1,21 @@
 import React from 'react'
+import {FaFacebook, FaInstagram, FaYoutube} from 'react-icons/fa'
+import {
+    FooterLinksContainer,
+    FooterWrap,
+    FotterContainer,
+    FooterLinksWrapper,
+    FooterLinkItems,
+    FooterLink,
+    FooterLinkTitle,
+    SocialMedia,
+    SocialMediaWrap,
+    SocialLogo,
+    WebsiteRights,
+    SocialIcons,
+    SocialIconLink
+} from './FotterElements.js'
+
 
 function Footer() {
     return (
@@ -20,6 +37,26 @@ function Footer() {
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>
+                <SocialMedia>
+                    <SocialMediaWrap>
+                        <SocialLogo to='/'>
+                            zlatovrv
+                        </SocialLogo>
+                        <WebsiteRights>Zlatovrv {new Date().getFullYear()}
+                        Site prava zadrzani</WebsiteRights>
+                        <SocialIcons>
+                            <SocialIconLink href="/" target ="_blank" arial-label="Facebook">
+                                <FaFacebook />
+                            </SocialIconLink>
+                            <SocialIconLink href="/" target ="_blank" arial-label="Instagram">
+                                <FaInstagram />
+                            </SocialIconLink>
+                            <SocialIconLink href="/" target ="_blank" arial-label="Youtube">
+                                <FaYoutube />
+                            </SocialIconLink>
+                        </SocialIcons>
+                    </SocialMediaWrap>
+                </SocialMedia>
             </FooterWrap>
         </FotterContainer>
     )
