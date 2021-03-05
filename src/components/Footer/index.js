@@ -48,7 +48,7 @@ function Footer() {
                             <SocialIconLink href="/" target ="_blank" arial-label="Facebook">
                                 <FaFacebook />
                             </SocialIconLink>
-                            <SocialIconLink href="/" target ="_blank" arial-label="Instagram">
+                            <SocialIconLink href="https://www.instagram.com/scc_zlatovrv/?hl=en" target ="_blank" arial-label="Instagram">
                                 <FaInstagram />
                             </SocialIconLink>
                             <SocialIconLink href="/" target ="_blank" arial-label="Youtube">
