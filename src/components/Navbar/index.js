@@ -44,22 +44,22 @@ const Navbar = ({ toggle }) => {
             <NavMenu>
                 <NavItem>
                     <NavLinks to="about"
-                    smooth={true} duration={500} spy={true} exact='true' offset={-80}
+                    smooth={true} duration={500} spy={true} exact='true' offset={-80} activeClass = 'activea'
                     >За Нас</NavLinks>
                 </NavItem>
                 <NavItem>
                     <NavLinks to="galery"
-                    smooth={true} duration={500} spy={true} exact='true' offset={-80}
+                    smooth={true} duration={500} spy={true} exact='true' offset={-80} activeClass = 'activeb'
                     >Галерија</NavLinks>
                 </NavItem>
                 <NavItem>
                     <NavLinks to="services"
-                    smooth={true} duration={500} spy={true} exact='true' offset={-80}
+                    smooth={true} duration={500} spy={true} exact='true' offset={-80} activeClass = 'activec'
                     >Services</NavLinks>
                 </NavItem>
                 <NavItem>
                     <NavLinks to="contact"
-                    smooth={true} duration={500} spy={true} exact='true' offset={-80}
+                    smooth={true} duration={500} spy={true} exact='true' offset={-80} activeClass = 'actived'
                     >Контакт</NavLinks>
                 </NavItem>
             </NavMenu>

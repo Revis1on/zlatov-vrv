@@ -90,10 +90,21 @@ export const NavLinks = styled(LinkS)`
     cursor: pointer;
 
 
-    &.active{
+    &.activea{
         border-bottom: 3px solid #01bf71;
     }
 
+    &.activeb{
+        border-bottom: 3px solid #e63462;
+    }
+
+    &.activec{
+        border-bottom: 3px solid #FE5F55;
+    }
+
+    &.actived{
+        border-bottom: 3px solid #F2AF29;
+    }
 `;
 
 export const NavBtn = styled.nav`
