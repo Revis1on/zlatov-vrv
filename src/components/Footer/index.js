@@ -40,10 +40,10 @@ function Footer() {
                 <SocialMedia>
                     <SocialMediaWrap>
                         <SocialLogo to='/'>
-                            zlatovrv
+                            Златоврв
                         </SocialLogo>
-                        <WebsiteRights>Zlatovrv {new Date().getFullYear()}
-                        Site prava zadrzani</WebsiteRights>
+                        <WebsiteRights>Златоврв {new Date().getFullYear()} 
+                         {`  `} Сите права се задржани</WebsiteRights>
                         <SocialIcons>
                             <SocialIconLink href="/" target ="_blank" arial-label="Facebook">
                                 <FaFacebook />
