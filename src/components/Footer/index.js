@@ -1,5 +1,5 @@
 import React from 'react'
-import {FaFacebook, FaInstagram, FaYoutube} from 'react-icons/fa'
+import {FaFacebook, FaInstagram } from 'react-icons/fa'
 import {
     FooterLinksContainer,
     FooterWrap,
@@ -50,9 +50,6 @@ function Footer() {
                             </SocialIconLink>
                             <SocialIconLink href="https://www.instagram.com/scc_zlatovrv/?hl=en" target ="_blank" arial-label="Instagram">
                                 <FaInstagram />
-                            </SocialIconLink>
-                            <SocialIconLink href="/" target ="_blank" arial-label="Youtube">
-                                <FaYoutube />
                             </SocialIconLink>
                         </SocialIcons>
                     </SocialMediaWrap>
