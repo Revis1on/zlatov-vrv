@@ -1,10 +1,14 @@
 import React from 'react'
+import uploadForm from '../UploadForm/uploadForm'
+import { RockContainer, RockWrapper } from './RockCatalogElements'
 
 function RockCatalog() {
     return (
-        <div>
-            
-        </div>
+        <RockContainer>
+        <RockWrapper>
+                <uploadForm />
+        </RockWrapper>
+    </RockContainer>
     )
 }
 
