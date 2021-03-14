@@ -1,6 +1,6 @@
 import React from 'react'
 
-function uploadForm() {
+const uploadForm = () => {
     return (
         <form>
             <input type="file" />
