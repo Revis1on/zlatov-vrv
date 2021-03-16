@@ -1,7 +1,8 @@
 import React from 'react';
+import './style.css'
 
 const Title = () => {
-  return (
+  return (  
     <div className="title">
       <h1>FireGram</h1>
       <h2>Your Pictures</h2>

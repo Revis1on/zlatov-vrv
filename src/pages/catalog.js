@@ -1,14 +1,13 @@
 import React from 'react'
-import RockCatalog from '../components/RockCatalog'
 import Title from '../components/RockCatalog/Title'
-import uploadForm from '../components/RockCatalog/uploadForm'
+import UploadForm from '../components/RockCatalog/uploadForm'
 
-function Catalog() {
+const Catalog = () => {
 
     return (
-        <>
+        <>x
           <Title />
-          <uploadForm />
+          <UploadForm />
         </>
     )
 }
